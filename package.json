@@ -1,0 +1,35 @@
+{
+  "name": "picker-web",
+  "version": "1.0.0",
+  "description": "My riveting Nuxt.js project",
+  "author": "baisheng",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build && tsc -p tsconfig.nuxt-config.json",
+    "start": "nuxt start -c .nuxt/ts-compiled/nuxt.config.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .ts,.js,.vue ."
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "boxicons": "^2.0.5",
+    "isotope-layout": "^3.0.6",
+    "nuxt": "^2.11.0",
+    "nuxt-property-decorator": "^2.5.1",
+    "sass": "^1.26.2",
+    "sass-loader": "^8.0.2",
+    "stylus": "^0.54.7",
+    "ts-node": "^8.6.2",
+    "vee-validate": "^3.2.5",
+    "vue-property-decorator": "^8.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^0.6.4",
+    "@nuxt/typescript-build": "^0.6.0",
+    "@nuxtjs/eslint-config-typescript": "^1.0.2",
+    "@types/isotope-layout": "^3.0.8",
+    "eslint": "^6.8.0",
+    "stylus-loader": "^3.0.2"
+  }
+}
